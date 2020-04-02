@@ -1,0 +1,77 @@
+.card-form {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .form-add-card {
+    height: 50px;
+    width: 200px;
+    margin-top: 100px;
+    color: $paynes-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+  }
+
+  .card-wrapper {
+    height: 600px;
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid rgba(100, 104, 130, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgba(100, 104, 130, 0.5);
+
+    .form {
+      height: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .dropzone-wrapper {
+        height: 50%;
+      }
+
+      .interactives-wrapper {
+        height: 50%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        input {
+          height: 30px;
+          width: 90%;
+          font-size: 1.3em;
+          border: 1px solid rgba(100, 104, 130, 0.2);
+          background-color: whitesmoke;
+          border-radius: 5px;
+        }
+
+        .checkbox {
+          font-family: sans-serif;
+          font-weight: 700;
+          color: $paynes-gray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            height: 20px;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}

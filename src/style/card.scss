@@ -1,0 +1,58 @@
+.card {
+  height: 500px;
+  width: 100%;
+  color: $paynes-gray;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  background: white;
+  border: 1px solid rgba(100, 104, 130, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(100, 104, 130, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .image-wrapper {
+    height: 200px;
+    width: 300px;
+    border-bottom: 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 150px;
+      width: auto;
+      border: 3px solid $gun-metal;
+      border-radius: 50px;
+    }
+  }
+
+  .text-wrapper {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 20px;
+      width: auto;
+      margin-bottom: 30px;
+    }
+  }
+
+  .button-wrapper {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
