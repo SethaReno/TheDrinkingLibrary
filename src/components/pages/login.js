@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import Skyrim from "../../../static/images/Other/SkyrimFeel.jpg";
+// import Skyrim from "../../../static/images/Other/SkyrimFeel.jpg";
+import OutsideBirdCage from "../../../static/images/Other/outsideBirdCage.jpg";
 
 class Auth extends Component {
   constructor() {
@@ -58,7 +59,7 @@ class Auth extends Component {
   render() {
     return (
       <div className="auth-page-wrapper">
-        <img src={Skyrim} />
+        <img src={OutsideBirdCage} />
 
         <div className="login-wrapper">
           <div className="auth-status">

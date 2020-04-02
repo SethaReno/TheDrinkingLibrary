@@ -6,7 +6,8 @@ import {
   NavLink as Link
 } from "react-router-dom";
 
-import Logo from "../../../static/images/logos/circular-logic-logo.jpg";
+// import Logo from "../../../static/images/logos/circular-logic-logo.jpg";
+import TexasStar from "../../../static/images/Other/texasStar.jpg";
 
 import Home from "../pages/home";
 import CardForm from "../infoForm";
@@ -26,7 +27,7 @@ const NavBar = () => {
           <div className="bottom-navbar">
             <div className="right-side">
               <div className="logo-wrapper">
-                <img src={Logo} alt="Doughnut Logo" />
+                <img src={TexasStar} alt="Doughnut Logo" />
               </div>
             </div>
 
