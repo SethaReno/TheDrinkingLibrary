@@ -27,7 +27,7 @@ const NavBar = () => {
           <div className="bottom-navbar">
             <div className="right-side">
               <div className="logo-wrapper">
-                <img src={TexasStar} alt="Doughnut Logo" />
+                <img src={TexasStar} alt="Ranger Logo" />
               </div>
             </div>
 

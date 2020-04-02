@@ -1,6 +1,7 @@
 import React from "react";
 
-import Heart from "../../static/images/logos/heart.jpg";
+// import Heart from "../../static/images/logos/heart.jpg";
+import Star from "../../static/images/logos/Dallas_Cowboys.svg.png"
 
 const Card = props => {
   return (
@@ -14,7 +15,7 @@ const Card = props => {
       </div>
 
       <div className="logo-wrapper">
-        {props.favorite ? <img src={Heart} alt="Star" /> : null}
+        {props.favorite ? <img src={Star} alt="CowboyStar" /> : null}
 
         <div className="button-wrapper">
           <button onClick={() => props.deleteCard(props.id)}>DEL</button>
